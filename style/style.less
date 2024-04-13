@@ -26,7 +26,7 @@ body {
         color: white;
         backdrop-filter:sepia(90%);
     }
-    
+
     main {
         background-color: #22222200;
         width: 90%;
@@ -43,7 +43,7 @@ body {
             cursor: pointer;
             background-color: rgba(0, 0, 0, 0.136);
             border: 0;
-            transition: 0.4s;
+            transition: 0.3s;
             margin: auto;
             border-radius: 10px;
             box-shadow: 1px 2px 10px black;
@@ -52,7 +52,7 @@ body {
             padding: 20px 0;
             color: white;
 
-            &:active , &:hover {
+            &:hover {
                 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
             }
         }
@@ -63,11 +63,14 @@ body {
             align-items: center;
             flex-wrap: wrap;
             overflow-y: auto;
+            width: 95%;
+            height: 80vh;
             background-color: #22222200;
             box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.74);
             border-radius: 10px;
             padding: 20px;
             gap: 30px;
+            
             &::-webkit-scrollbar{
                 display: none;
             }
@@ -77,7 +80,7 @@ body {
                 cursor: pointer;
                 background-color: rgba(0, 0, 0, 0.136);
                 border: 0;
-                transition: 0.4s;
+                transition: 0.3s;
                 text-align: center;
                 margin: auto;
                 max-width: 140px;
@@ -88,7 +91,7 @@ body {
                 color: rgba(255, 255, 255, 0.613);
                 resize: none;
 
-                &:active , &:hover {
+                &:focus {
                     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37) ;
                 }
             }

@@ -41,7 +41,7 @@ body main button {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.136);
   border: 0;
-  transition: 0.4s;
+  transition: 0.3s;
   margin: auto;
   border-radius: 10px;
   box-shadow: 1px 2px 10px black;
@@ -50,7 +50,6 @@ body main button {
   padding: 20px 0;
   color: white;
 }
-body main button:active,
 body main button:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
@@ -61,6 +60,8 @@ body main section {
   align-items: center;
   flex-wrap: wrap;
   overflow-y: auto;
+  width: 95%;
+  height: 80vh;
   background-color: #22222200;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.74);
   border-radius: 10px;
@@ -74,7 +75,7 @@ body main section textarea {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.136);
   border: 0;
-  transition: 0.4s;
+  transition: 0.3s;
   text-align: center;
   margin: auto;
   max-width: 140px;
@@ -85,8 +86,7 @@ body main section textarea {
   color: rgba(255, 255, 255, 0.613);
   resize: none;
 }
-body main section textarea:active,
-body main section textarea:hover {
+body main section textarea:focus {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
 }
 @keyframes rotate {
