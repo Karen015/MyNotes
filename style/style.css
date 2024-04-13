@@ -39,7 +39,7 @@ body main {
 }
 body main button {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.136);
+  background-color: rgba(0, 0, 0, 0.1);
   border: 0;
   transition: 0.3s;
   margin: auto;
@@ -51,7 +51,7 @@ body main button {
   color: white;
 }
 body main button:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 black;
 }
 body main section {
   z-index: 1;
@@ -86,8 +86,11 @@ body main section textarea {
   color: rgba(255, 255, 255, 0.613);
   resize: none;
 }
+body main section textarea:hover {
+  box-shadow: 0 0 0 black;
+}
 body main section textarea:focus {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+  box-shadow: 0 0 40px black;
 }
 @keyframes rotate {
   0% {

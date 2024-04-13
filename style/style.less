@@ -41,7 +41,7 @@ body {
 
         button {
             cursor: pointer;
-            background-color: rgba(0, 0, 0, 0.136);
+            background-color: rgba(0, 0, 0, 0.1);
             border: 0;
             transition: 0.3s;
             margin: auto;
@@ -53,9 +53,10 @@ body {
             color: white;
 
             &:hover {
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 0 black;
             }
         }
+
         section {
             z-index: 1;
             display: flex;
@@ -91,8 +92,11 @@ body {
                 color: rgba(255, 255, 255, 0.613);
                 resize: none;
 
+                &:hover {
+                    box-shadow: 0 0 0 black;
+                }
                 &:focus {
-                    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37) ;
+                    box-shadow: 0 0 40px black;
                 }
             }
         }
