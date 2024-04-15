@@ -16,8 +16,8 @@ noteCreatBtn.addEventListener('click', () => {
         }
     })
 })
-function generateId(){
-    let id = 0;
+let id = 0;
+function generateId(){    
     return ++id;
 }
 function saveToLocalStorage(){
@@ -34,4 +34,3 @@ storedData.forEach(({id,value}) => {
 });
 }
 updateTextAreas();
-console.log("dcvfbghj")
